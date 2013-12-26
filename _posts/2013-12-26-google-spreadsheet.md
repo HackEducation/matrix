@@ -5,8 +5,6 @@ url: http://matrix.hackeducation.com/2013/12/26/google-spreadsheet/
 image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-google-drive-icon.png
 ---
 
-## Top Ed-Tech Trends of 2013: The Business of Ed-Tech
-
 <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-google-drive-icon.png" width="150" align="right" style="padding: 15px;" />
 
 As part of my year-end review of ed-tech trends, I tried to identify all the startups who've raised venture capital in 2013. (This data came from weekly news posts I've written.) For more information on "The Business of Ed-Tech" in 2013, [you can read the full article](http://hackeducation.com/2013/12/23/top-ed-tech-trends-2013-business/).
