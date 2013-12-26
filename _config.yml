@@ -1,0 +1,23 @@
+title : Ed-Tech Matrix
+
+safe: true
+lsi: false
+pygments: true
+auto: true
+
+source: Ed-Tech-Matrix
+destination: Ed-Tech-Matrix
+
+permalink: /:categories/:year/:month/:day/:title 
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+paginate: 1000
+paginate_path: "/blog/page:num"
+
+production_url : http://matrix.hackeducation.com/
+
+BASE_PATH : http://matrix.hackeducation.com/
+
+archive_path: /archive.html
+categories_path : /categories.html
+tags_path : /tags.html
