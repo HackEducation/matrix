@@ -15,7 +15,7 @@
         {{ content }}
         </div>
     </div>
-    <br /><hr /><br />
+    <br /><hr />
     <div class="row" align="center" style="padding-top: 10px; padding-botto: 10px;">
         <div class="pagination">
           <ul>
@@ -24,7 +24,7 @@
           {% else %}
             <li class="prev disabled"><a>&larr; Previous</a></li>
           {% endif %}
-            <li><a href="/archive.html">Archive</a></li>
+            <li></li>
           {% if page.next %}
             <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
           {% else %}
@@ -35,7 +35,7 @@
     </div>
     
         <!-- BEGIN CUSTOM Social Menu - Kin Lane 12-21-2010 -->
-        <hr />
+        <br /><hr />
         <div id="social-toolbar" style="pdding-top: -15px; margin-top: -15px; padding-bottom: 0px; padding-left: 10px; width: 600px;">
         
         <table cellpadding="1" cellspacing="1" width="100%" border="0" align="center">
