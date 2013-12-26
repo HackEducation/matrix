@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Top Ed-Tech Trends of 2013: The Business of Ed-Tech
