@@ -21,3 +21,5 @@ BASE_PATH : http://matrix.hackeducation.com/
 archive_path: /archive.html
 categories_path : /categories.html
 tags_path : /tags.html
+
+markdown: kramdown
