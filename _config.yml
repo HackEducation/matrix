@@ -1,25 +1,68 @@
-title : Ed-Tech Matrix
+# Build settings
+markdown: redcarpet
+highlighter: pygments
 
-safe: true
-lsi: false
-pygments: true
-auto: true
+# Site settings
+title: "Ed-Tech Industry Matrix"
+description: > # this means to ignore newlines until "email:"
+   A Hack Education Project
 
-source: Ed-Tech-Matrix
-destination: Ed-Tech-Matrix
+email: mail@audreywatters.com
+#blog logo
+logo: "/assets/images/hack_logo.jpg"
+# blog cover
+cover: "/assets/images/pigeons.jpg"
+covercredits: "https://www.flickr.com/photos/emmanuelecontini/2863483684"
 
-permalink: /:categories/:year/:month/:day/:title 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+name: 'Audrey Watters'
+author: 'Audrey Watters'
+author_image: "/assets/images/author.jpg"
 
-paginate: 1000
+paginate:	5
 paginate_path: "/blog/page:num"
+permalink: /:categories/:year/:month/:day/:title 
 
-production_url : http://matrix.hackeducation.com/
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/audreywatters
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&url="
 
-BASE_PATH : http://matrix.hackeducation.com/
+  - icon:	facebook
+    url:	
+    desc: 
+    share_url: http://www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
 
-archive_path: /archive.html
-categories_path : /categories.html
-tags_path : /tags.html
+  - icon:	github
+    url:	https://github.com/audreywatters
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
 
-markdown: kramdown
+  - icon:	google-plus
+    url:	
+    desc:	
+    share_url:
+    share_title:
+    share_link:
+
+  - icon: rss
+    url:  http://hackeducation.com/feed.xml
+    desc: Subscribe
+    share_url:
+    share_title:
+    share_link:
+
+  - icon: envelope
+    url:  mailto:mail@audreywatters.com
+    desc: Email
+    share_url:
+    share_title:
+    share_link:    
+  

@@ -1,9 +1,6 @@
 ---
 layout: default
-title: Ed-Tech Funding
-overview: true
----  
-  
+---
 <h2>The Ed-Tech (Industry) Matrix</h2>     
 <p><img src="https://s3.amazonaws.com/hackedu/network150.png" align="right" style="margin:15px">Who’s investing in education technology? What are the relationships between investors and startups? Between politics and policies? Between dollars and trends? Who's funding teacher-founded startups? Who's funding women and minority-led startups? What does the “map” of the ed-tech industry look like? What are the relationships between companies, entrepreneurs, investors, and institutions?</p>
 
@@ -19,3 +16,24 @@ overview: true
 <li><a href="http://hackeducation.com/2013/03/20/2010-2011-ed-tech-startups-updated/">2010–2011 Ed-Tech Startups: Where Are They Now?</a></li>
 <li><a href="http://hackeducation.com/2013/12/23/top-ed-tech-trends-2013-business/">The Business of Ed-Tech (2013)</a></li>
 </ul>
+
+    <h5 class="index-headline normal"><span>Blog</span></h5>
+    
+<div class="cf frame">
+  {% for post in paginator.posts %}
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+        </header>
+        <section class="post-excerpt" itemprop="description">
+          <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+        </section>
+        <div class="post-meta">
+          <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+<!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
+        </div>
+      <div>
+    </article>
+  {% endfor %}
+</div>
