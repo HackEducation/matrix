@@ -1,0 +1,37 @@
+{
+ "name": "flare",
+ "children": [
+  {
+   "name": "animate",
+   "children": [
+    {"name": "Flat World", "size": 9500},
+    {"name": "NetDragon Education", "size": 52500},
+    {"name": "Globaloria", "size": 995},
+    {"name": "Querium", "size": 800},
+    {
+     "name": "interpolate",
+     "children": [
+      {"name": "CampusTap", "size": 500},
+      {"name": "Lynda.com", "size": 186000},
+      {"name": "Thinkful", "size": 2500},
+      {"name": "CodeHS", "size": 1750},
+      {"name": "Chalk.com", "size": 500},
+      {"name": "Slate Science", "size": 12000},
+      {"name": "Testive", "size": 500},
+      {"name": "Citelighter", "size": 12000},
+      {"name": "SingSpiel", "size": 350}
+     ]
+    },
+    {"name": "XueXiBao", "size": 20000},
+    {"name": "LearnLaunchX", "size": 1130},
+    {"name": "SimpliLearn", "size": 14660},
+    {"name": "Earnest", "size": 17000},
+    {"name": "STEAM Engine", "size": 8000},
+    {"name": "Straighterline", "size": 4500},
+    {"name": "Koru", "size": 8000},
+    {"name": "SpecialNeedsWare", "size": 3000},
+    {"name": "Redshelf", "size": 2000}
+   ]
+  }
+  ]
+}
