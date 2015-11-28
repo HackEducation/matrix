@@ -9,29 +9,9 @@ layout: default
 
 <p>Via the GitHub interface, you can ask questions that will help shape the research (and shape the data I collect). To do so, <a href="https://github.com/HackEducation/Ed-Tech-Matrix/issues/new">submit an &#8220;issue.&#8221;</a></p>
 
-<p>This project is under development. (Here is the <a href="http://matrix.hackeducation.com/roadmap.html">project roadmap</a>.) In the meantime, you can read some of the other posts I&#8217;ve written on Hack Education about startup funding:</p>
+<p>This project is under development. <a href="http://matrix.hackeducation.com/blog/">You can find updates here</a>. In the meantime, you can read some of the other posts I&#8217;ve written on Hack Education about startup funding:</p>
 <ul>
 <li><a href="http://hackeducation.com/2013/12/23/top-ed-tech-trends-2013-business/">The Business of Ed-Tech (2013)</a></li>
 <li><a href="http://2014trends.hackeducation.com/business.html">The Business of Ed-Tech (2014)</a></li>
 </ul>
 
-    <h5 class="index-headline normal"><span>Updates</span></h5>
-    
-<div class="cf frame">
-  {% for post in paginator.posts %}
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-      <div class="article-item">
-        <header class="post-header">
-          <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-        </header>
-        <section class="post-excerpt" itemprop="description">
-          <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-        </section>
-        <div class="post-meta">
-          <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-<!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
-        </div>
-      <div>
-    </article>
-  {% endfor %}
-</div>
