@@ -32,7 +32,7 @@ social:
     share_link: "&url="
 
   - icon:	facebook
-    url:	facebook.com/history.future.education
+    url:	https://facebook.com/history.future.education
     desc: Like me on facebook
     share_url: http://www.facebook.com/sharer.php
     share_title: ?t=
